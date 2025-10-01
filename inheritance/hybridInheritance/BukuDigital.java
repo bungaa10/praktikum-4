@@ -1,10 +1,10 @@
 package hybridInheritance;
 
-// Interface untuk buku digital
-public interface BukuDigital {
-    void infoDigital();
-    String getFormatFile();
-    default void caraBaca() {
-        System.out.println("Baca melalui device elektronik");
+public class BukuDigital extends Buku implements Digitalable {
+    public BukuDigital(String judul, String pengarang, double ukuranFile) {
+        super(judul, pengarang);
+    }
+    public void membaca() {
+        System.out.println("Membaca buku digital \"" + judul );
     }
 }

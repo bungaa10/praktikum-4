@@ -1,27 +1,19 @@
 package hybridInheritance;
 
-// Kelas dasar atau interface untuk semua jenis buku
-public abstract class Buku {
-    protected String judul;
-    protected String penulis;
-    protected double harga;
-    
-    public Buku(String judul, String penulis, double harga) {
+public class Buku {
+    public String judul;
+    public String pengarang;
+
+    public Buku(String judul, String pengarang) {
         this.judul = judul;
-        this.penulis = penulis;
-        this.harga = harga;
+        this.pengarang = pengarang;
     }
-    
-    // Abstract method yang harus diimplement child class
-    public abstract void tampilkanInfo();
-    
-    // Concrete method
-    public void bacaBuku() {
-        System.out.println("Membaca buku: " + judul);
+
+    public void infoBuku() {
+        System.out.println("Judul: " + judul);
+        System.out.println("Pengarang: " + pengarang);
     }
-    
-    // Getter methods
-    public String getJudul() { return judul; }
-    public String getPenulis() { return penulis; }
-    public double getHarga() { return harga; }
+    public void membaca() {
+        System.out.println("Membaca buku berjudul \"" + judul + "\" karya " + pengarang + ".");
+    }
 }

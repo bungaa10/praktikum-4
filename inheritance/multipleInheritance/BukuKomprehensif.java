@@ -14,23 +14,18 @@ public class BukuKomprehensif implements BukuCetak, BukuDigital {
     }
     
     // Implementasi methods dari BukuCetak
-    @Override
     public void infoCetak() {
-        System.out.println("Buku cetak: " + judul + " - " + halaman + " halaman");
+        System.out.println("Buku cetak: " + judul);
     }
     
-    @Override
     public int getHalaman() {
         return halaman;
     }
     
     // Implementasi methods dari BukuDigital
-    @Override
     public void infoDigital() {
-        System.out.println("Buku digital: " + judul + " - Format: " + format);
+        System.out.println("Buku digital: " + judul);
     }
-    
-    @Override
     public String getFormat() {
         return format;
     }
@@ -41,7 +36,7 @@ public class BukuKomprehensif implements BukuCetak, BukuDigital {
         infoCetak();
         infoDigital();
         System.out.println("Judul: " + judul);
-        System.out.println("Total halaman: " + halaman);
-        System.out.println("Format digital: " + format);
+        System.out.println("Total halaman Buku Cetak: " + halaman);
+        System.out.println("Format Buku digital : " + format);
     }
 }

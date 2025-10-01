@@ -1,6 +1,6 @@
 package multipleInheritance;
 
-// Child class yang mewarisi kedua parent interface
+
 public class BukuKomprehensif implements BukuCetak, BukuDigital {
     private String judul;
     private int halaman;
@@ -12,25 +12,18 @@ public class BukuKomprehensif implements BukuCetak, BukuDigital {
         this.halaman = halaman;
         this.format = format;
     }
-    
-    // Implementasi methods dari BukuCetak
     public void infoCetak() {
         System.out.println("Buku cetak: " + judul);
     }
-    
     public int getHalaman() {
         return halaman;
     }
-    
-    // Implementasi methods dari BukuDigital
     public void infoDigital() {
         System.out.println("Buku digital: " + judul);
     }
     public String getFormat() {
         return format;
     }
-    
-    // Method khusus child class
     public void tampilkanSemuaInfo() {
         System.out.println("=== INFO LENGKAP BUKU ===");
         infoCetak();

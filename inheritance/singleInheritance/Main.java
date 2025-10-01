@@ -4,4 +4,5 @@ public class Main {
         pelajaran.infoPelajaran();
         pelajaran.membaca();
     }
+    
 }

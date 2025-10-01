@@ -11,4 +11,7 @@ public class Buku {
         System.out.println("Judul: " + judul );
         System.out.println("Pengarang: " + pengarang);
     }
+    public void membaca() {
+        System.out.println("Bunga sedang membaca buku yang berjudul \"" + judul + "\" karya " + pengarang + ".");
+    }
 }   

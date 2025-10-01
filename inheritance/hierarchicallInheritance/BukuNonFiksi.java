@@ -12,7 +12,6 @@ public class BukuNonFiksi extends Buku {
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Kategori: " + kategori);
-        System.out.println("Kategori: Buku Non-Fiksi");
         
     }
 

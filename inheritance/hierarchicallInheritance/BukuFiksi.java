@@ -9,6 +9,5 @@ public class BukuFiksi extends Buku {
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Kategori: Buku Fiksi");
-        System.out.println("------------------------");
     }
 }

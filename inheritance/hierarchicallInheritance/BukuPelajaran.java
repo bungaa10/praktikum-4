@@ -15,7 +15,6 @@ public class BukuPelajaran extends BukuNonFiksi {
         super.displayInfo();
         System.out.println("Mata Pelajaran: " + mataPelajaran);
         System.out.println("Tingkat Kelas: " + tingkatKelas);
-        System.out.println("Jenis: Buku Pelajaran");
     }
 
     public String getMataPelajaran() {

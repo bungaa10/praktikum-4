@@ -2,9 +2,6 @@ package hierarchicallInheritance;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== SISTEM INFORMASI PERPUSTAKAAN ===\n");
-
-        
     BukuFiksi bukuFiksi = new BukuFiksi("Laskar Pelangi", "Andre Hirata");
 
     BukuNonFiksi bukuNonFiksi = new BukuNonFiksi("Sejarah Indonesia Modern","Pramoedya Ananta Toer", "Sejarah" );
@@ -16,16 +13,16 @@ public class Main {
         );
 
         
-    System.out.println("=== BUKU FIKSI ===");
+    System.out.println("\nBUKU FIKSI :");
     bukuFiksi.displayInfo();
 
-    System.out.println("=== BUKU NON-FIKSI ===");
+    System.out.println("\nBUKU NON-FIKSI :");
     bukuNonFiksi.displayInfo();
 
-    System.out.println("=== BUKU PELAJARAN ===");
+    System.out.println("\nBUKU PELAJARAN :");
     bukuPelajaran.displayInfo();
 
-    System.out.println("=== NOVEL ===");
+    System.out.println("\nNOVEL :");
     novel.displayInfo();
 
     }

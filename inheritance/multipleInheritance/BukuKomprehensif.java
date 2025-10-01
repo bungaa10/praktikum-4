@@ -1,10 +1,9 @@
 package multipleInheritance;
 
-
 public class BukuKomprehensif implements BukuCetak, BukuDigital {
-    private String judul;
-    private int halaman;
-    private String format;
+    public String judul;
+    public int halaman;
+    public String format;
     
     // Constructor
     public BukuKomprehensif(String judul, int halaman, String format) {
@@ -12,15 +11,19 @@ public class BukuKomprehensif implements BukuCetak, BukuDigital {
         this.halaman = halaman;
         this.format = format;
     }
+    
     public void infoCetak() {
         System.out.println("Buku cetak: " + judul);
     }
+    
     public int getHalaman() {
         return halaman;
     }
+    
     public void infoDigital() {
         System.out.println("Buku digital: " + judul);
     }
+    
     public String getFormat() {
         return format;
     }
@@ -31,5 +34,11 @@ public class BukuKomprehensif implements BukuCetak, BukuDigital {
         System.out.println("Judul: " + judul);
         System.out.println("Total halaman Buku Cetak: " + halaman);
         System.out.println("Format Buku digital : " + format);
+    }
+
+    @Override
+    public void membaca() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'membaca'");
     }
 }

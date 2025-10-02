@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
     BukuFiksi bukuFiksi = new BukuFiksi("Laskar Pelangi", "Andre Hirata");
 
-    BukuNonFiksi bukuNonFiksi = new BukuNonFiksi("Sejarah Indonesia Modern","Pramoedya Ananta Toer", "Sejarah" );
+    BukuNonFiksi bukuNonFiksi = new BukuNonFiksi("Sejarah Indonesia","Pramoedya Ananta Toer", "Sejarah" );
 
         
     System.out.println("\nBUKU FIKSI :");

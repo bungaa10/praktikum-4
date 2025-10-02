@@ -3,9 +3,9 @@ package multipleInheritance;
 
 public class Main {
     public static void main(String[] args) {
-        BukuKomprehensif bukuKomprehensif1 = new BukuKomprehensif("Pemrograman Java untuk Pemula", 350, "PDF");
-        bukuKomprehensif1.tampilkanSemuaInfo();
-        bukuKomprehensif1.membaca();
+        BukuMatematika bukuMatematika1 = new BukuMatematika("Matematika Teknik","Slamet");
+        bukuMatematika1.infoCetak();
+        bukuMatematika1.membaca();
 
         
     

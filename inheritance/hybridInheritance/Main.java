@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         BukuCetak cetak = new BukuCetak("Pemrograman Java", "Budi", 300);
         BukuDigital digital = new BukuDigital("Algoritma Pemogramman", "Sari", 5.6);
-        BukuKomprehensif komprehensif = new BukuKomprehensif("Pemmograman Berorientasi Objek", "Andi");
+        BukuMatematika Matematika = new BukuMatematika("Pemmograman Berorientasi Objek", "Andi");
 
         System.out.println("\nBuku Cetak :");
         cetak.infoBuku();
@@ -15,9 +15,9 @@ public class Main {
         digital.infoBuku();
         digital.membaca();
 
-        System.out.println("\nBuku Komprehensif :");
-        komprehensif.infoBuku();
-        komprehensif.cetak();
-        komprehensif.membaca();
+        System.out.println("\nBuku Matematika :");
+        Matematika.infoBuku();
+        Matematika.cetak();
+        Matematika.membaca();
     }
 }

@@ -1,8 +1,8 @@
 package hybridInheritance;
 
-public class BukuKomprehensif extends Buku implements Cetakable, Digitalable {
+public class BukuMatematika extends Buku implements Cetakable, Digitalable {
 
-    public BukuKomprehensif(String judul, String pengarang) {
+    public BukuMatematika(String judul, String pengarang) {
         super(judul, pengarang);
     }
     public void cetak() {

@@ -4,7 +4,7 @@ public class BukuPelajaran extends Buku {
         super(judul, pengarang);
     }
     
-    public void infoPelajaran() {
+    public void showInfo() {
         System.out.println("Mata Pelajaran: " + super.judul);
         System.out.println("Pengarang: " + super.pengarang);
     }

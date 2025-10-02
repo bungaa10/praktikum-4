@@ -7,7 +7,7 @@ public class Buku {
         this.judul = judul;
         this.pengarang = pengarang;
     }
-    void showInfo() {
+    public void showInfo() {
         System.out.println("Judul: " + judul );
         System.out.println("Pengarang: " + pengarang);
     }

@@ -1,7 +1,6 @@
 package multipleInheritance;
 
 public interface BukuDigital {
-    void membaca();
-    void infoDigital();
-    String getFormat();
+    public void membaca();
+    public void infoDigital();
 }

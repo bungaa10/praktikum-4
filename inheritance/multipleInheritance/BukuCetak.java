@@ -2,7 +2,6 @@ package multipleInheritance;
 
 public interface BukuCetak {
 
-    void membaca();
-    void infoCetak();
-    int getHalaman();
+    public void membaca();
+    public void infoCetak();
 }

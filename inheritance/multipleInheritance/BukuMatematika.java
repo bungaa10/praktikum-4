@@ -14,7 +14,4 @@ public class BukuMatematika implements BukuCetak{
     public void infoCetak() {
         System.out.println(String.format("Judul: %s\nPengarang: %s", judul, pengarang));
     }
-    public int getHalaman() {
-        return 100; // Return the number of pages or implement your logic here
-    }
 }

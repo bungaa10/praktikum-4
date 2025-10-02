@@ -9,4 +9,9 @@ public class BukuNonFiksi extends Buku {
         super.showInfo();
         
     }
+    public void membaca() {
+        super.membaca();
+        
+    }
+
 }

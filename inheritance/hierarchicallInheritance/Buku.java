@@ -9,8 +9,11 @@ public class Buku {
         this.pengarang = pengarang;
     }
 
-    public void displayInfo() {
+    public void showInfo() {
         System.out.println("Judul: " + judul);
         System.out.println("Pengarang: " + pengarang);
+    }
+    public void membaca() {
+        System.out.println("Bunga sedang membaca buku yang berjudul \"" + judul + "\" karya " + pengarang + ".");
     }
 }

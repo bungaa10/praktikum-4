@@ -6,9 +6,9 @@ public class BukuMatematika extends Buku implements Cetakable, Digitalable {
         super(judul, pengarang);
     }
     public void cetak() {
-        System.out.println("Bunga Mencetak buku komprehensif dengan " + judul );
+        System.out.println("Bunga Mencetak buku matematika dengan " + judul );
     }
     public void membaca() {
-        System.out.println("Bunga Membaca buku komprehensif \"" + judul);
+        System.out.println("Bunga Membaca buku matematika \"" + judul);
     }
 }

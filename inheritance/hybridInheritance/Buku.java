@@ -9,7 +9,7 @@ public class Buku {
         this.pengarang = pengarang;
     }
 
-    public void infoBuku() {
+    public void showInfo() {
         System.out.println("Judul: " + judul);
         System.out.println("Pengarang: " + pengarang);
     }

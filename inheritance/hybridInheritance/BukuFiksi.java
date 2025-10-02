@@ -7,7 +7,7 @@ public class BukuFiksi extends Buku {
         super(judul, pengarang);
     }
     public void showInfo() {
-        super.infoBuku();
+        super.showInfo();
         System.out.println("Kategori: Buku Fiksi");
     }
 }

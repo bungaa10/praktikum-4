@@ -1,5 +1,5 @@
 package hybridInheritance;
 
 public interface Cetakable {
-    void cetak();
+    public void cetak();
 }

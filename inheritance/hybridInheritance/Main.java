@@ -7,16 +7,16 @@ public class Main {
         BukuMatematika Matematika = new BukuMatematika("Pemmograman Berorientasi Objek", "Andi");
 
         System.out.println("\nBuku Cetak :");
-        cetak.infoBuku();
+        cetak.showInfo();
         cetak.cetak();
         cetak.membaca();
 
         System.out.println("\nBuku Digital :");
-        digital.infoBuku();
+        digital.showInfo();
         digital.membaca();
 
         System.out.println("\nBuku Matematika :");
-        Matematika.infoBuku();
+        Matematika.showInfo();
         Matematika.cetak();
         Matematika.membaca();
     }

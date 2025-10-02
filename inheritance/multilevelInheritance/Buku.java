@@ -11,13 +11,13 @@ public class Buku {
         
     }
     
-    public void tampilkanInfo() {
+    public void showInfo() {
         System.out.println("Judul: " + judul);
         System.out.println("Pengarang: " + pengarang);
         
     }
     
-    public void bacaBuku() {
+    public void membaca() {
         System.out.println("Bunga sedang Membaca buku: " + judul);
     }
 }

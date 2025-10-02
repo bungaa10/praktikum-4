@@ -6,8 +6,11 @@ public class BukuMatematika extends BukuPelajaran {
         
         super(judul, pengarang);
     }
-    public void hitungSoal() {
-        System.out.println("Menghitung soal matematika dari buku: " + judul);
+    public void membaca() {
+        System.out.println("bunga sedang membaca buku " + judul );
+    }
+    public void infoCetak() {
+        System.out.println(String.format("Judul: %s\nPengarang: %s", judul, pengarang));
     }
     
 }

@@ -5,9 +5,9 @@ public class BukuCetak extends Buku implements Cetakable {
         super(judul, pengarang);
     }
     public void cetak() {
-        System.out.println("Mencetak buku cetak dengan " + judul );
+        System.out.println("Bunga sedang Mencetak buku cetak dengan " + judul );
     }
     public void membaca() {
-        System.out.println("Membaca buku cetak \"" + judul );
+        System.out.println("Bunga Membaca buku cetak \"" + judul );
     }
 }

@@ -14,6 +14,6 @@ public class Buku {
         System.out.println("Pengarang: " + pengarang);
     }
     public void membaca() {
-        System.out.println("Membaca buku berjudul \"" + judul + "\" karya " + pengarang + ".");
+        System.out.println("Bunga Membaca buku berjudul \"" + judul + "\" karya " + pengarang + ".");
     }
 }

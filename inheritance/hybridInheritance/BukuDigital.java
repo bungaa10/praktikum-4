@@ -5,6 +5,6 @@ public class BukuDigital extends Buku implements Digitalable {
         super(judul, pengarang);
     }
     public void membaca() {
-        System.out.println("Membaca buku digital \"" + judul );
+        System.out.println("Bunga Membaca buku digital \"" + judul );
     }
 }
